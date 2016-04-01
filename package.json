@@ -1,0 +1,30 @@
+{
+  "name": "sass-arrowow",
+  "version": "0.1.0",
+  "description": "generate arrow sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp dev --gulpfile bin/gulpfile.js",
+    "build": "gulp prod --gulpfile bin/gulpfile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/snailterror/sass-arrowow.git"
+  },
+  "keywords": [
+    "slushgenerator"
+  ],
+  "author": "Adrien <espel.adrien@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/snailterror/sass-arrowow/issues"
+  },
+  "homepage": "https://github.com/snailterror/sass-arrowow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-util": "^3.0.6"
+  }
+}
